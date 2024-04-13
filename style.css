@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+  font-style: italic;
+}
+
+body{
+    height: 100vh;
+    background-image: url(web-design-2906159_640.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main{
+    border-radius: 10px;
+
+}
+#header-title{
+    font-size: 4rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px rgb(33, 29, 29);
+    /* padding-top: 20px; */
+}
+.container{
+    width: 50%;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:800px) {
+    .container{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container{
+        width: 100%;
+    }
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    border-bottom: 5px solid rgb(8, 122, 133);
+}
+
+.content{
+    display: 1 1 0%;
+    width: 90%;
+}
+.item .content .text{
+    font-size: 1.3rem;
+    width: 100%;
+    border-color: transparent;
+}
+.item .content .text:hover{
+    cursor: context-menu;
+}
+.item .actions{
+    display: flex;
+}
+.item .actions button{
+    margin-left: 1rem;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 2px 5px;
+
+}
+
+
+
+
